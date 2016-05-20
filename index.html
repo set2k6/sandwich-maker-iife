@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+<h1>Sandwich Maker SPA</h1>
+
+<section id="menu">
+  <select id="menu_bread">
+    <option value=""disabled selected>Choose your bread</option>
+    <option value="white">White</option>
+    <option value="wheat">Wheat</option>
+    <option value="rye">Rye</option>
+    <option value="pumpernickel">Pumpernickel</option>
+    <option value="lettuce_wrap">Lettuce Wrap</option>
+  </select>
+
+  <div id="menu_meat">
+    <input type="checkbox" value="no_meat">No Meat</input>
+    <input type="checkbox" value="turkey">Turkey</input>
+    <input type="checkbox" value="bacon">Bacon</input>
+    <input type="checkbox" value="tempeh">Tempeh</input>
+    <input type="checkbox" value="spam">SPAM</input>
+  </div>
+
+  <div id="menu_cheese">
+    <input type="checkbox" value="no_cheese">No Cheese</input>
+    <input type="checkbox" value="swiss">Swiss</input>
+    <input type="checkbox" value="american">American</input>
+    <input type="checkbox" value="provolone">Provolone</input>
+    <input type="checkbox" value="pepper_jack">Pepper Jack</input>
+  </div>
+
+  <div id="menu_condiments">
+    <input type="checkbox" value="no_condiments">No Condiments</input>
+    <input type="checkbox" value="mayo">Mayo</input>
+    <input type="checkbox" value="ketchup">Ketchup</input>
+    <input type="checkbox" value="mustard">Mustard</input>
+    <input type="checkbox" value="bbq">BBQ</input>
+  </div>
+
+
+  <div id="menu_veggies">
+    <input type="checkbox" value="no_veggies">No Veggies</input>
+    <input type="checkbox" value="lettuce">Lettuce</input>
+    <input type="checkbox" value="tomato">Tomato</input>
+    <input type="checkbox" value="onion">Onion</input>
+    <input type="checkbox" value="pickles">Pickles</input>
+    <input type="checkbox" value="jalapenos">Jalapenos</input>
+  </div>
+</section>
+
+<article id="order_output">
+
+</article>
+
+</body>
+<script src="javascripts/SandwichMaker.js"></script>
+<script src="/javascripts/bread.js"></script>
+<script src="javascripts/meat.js"></script>
+<script src="/javascripts/cheese.js"></script>
+<script src="/javascripts/veggies.js"></script>
+<script src="/javascripts/condiments.js"></script>
+<script src="javascripts/DOMhandler.js"></script>
+</html>
